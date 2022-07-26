@@ -1,0 +1,79 @@
+/*============================= 
+    Google Font & Utilities
+===============================*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700;900&display=swap');
+*, html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 26px;
+    font-weight: 400;
+    color: #3E3E3E;
+}
+h1, h2{
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+}
+h3{
+    font-size: 24px;
+    line-height: 28px;
+    color: #363958;
+}
+.nr-btn{
+    padding: 18px 33px 18px 34px;
+    background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.nr-btn:hover{
+    color: #fff;
+}
+.navbar-toggler:focus,
+.btn-close:focus{
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+/*============================= 
+    Header Section
+===============================*/
+.header-sec{
+    background-image: url('../images/hero-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar-brand img{
+    width: 226px;
+}
+.nav-link{
+    font-weight: 500;
+    line-height: 24px;
+    color: #3C3C3C;
+}
+.nike-show-desc h1{
+    font-size: 80px;
+    line-height: 80px;
+}
+.nike-show-desc h1 span{
+    color: #FA804C;
+}
+/*============================= 
+    Casual Shoes Section
+===============================*/
+.casual-shoes-item,
+.support-info{
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+}
+.casual-product-img{
+    background: #F1F1F1;
+    border-radius: 20px;
+}
+.product-desc h4{
+    color: #FA804C;
+}
