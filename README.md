@@ -4,4 +4,4 @@
 
 # 🔥 Nike React - Responsive Landing Page Design Figma to HTML
 
-## 🔥[Live Demo](https://nwebpro.github.io/wakanda/)
+## 🔥[Live Demo](https://nwebpro.github.io/nike-react/)
