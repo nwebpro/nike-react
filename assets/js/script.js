@@ -11,6 +11,9 @@ for (const h3Element of h3Elements) {
 }
 
 // Remove Buy Now Button with click
-document.getElementById('remove-buynow-btn').addEventListener('click', function(event){
-    event.target.remove(event.target);
-});
+const buttons = document.getElementsByClassName('btn');
+for (const button of buttons) {
+    button.addEventListener('click', function(event){
+        event.target.remove(event.target);
+    });
+}
